@@ -29,7 +29,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay
 
 LOCAL_PACKAGE_NAME := Gallery2_Cyan
 
-LOCAL_OVERRIDES_PACKAGES := Gallery Gallery3D GalleryNew3D
+LOCAL_OVERRIDES_PACKAGES := Gallery Gallery3D GalleryNew3D Gallery2
 
 LOCAL_SDK_VERSION := current
 
