@@ -24,7 +24,7 @@ include $(CLEAR_VARS)
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_LDFLAGS	:= -llog -ljnigraphics
 LOCAL_SDK_VERSION := 9
-LOCAL_MODULE    := libjni_filtershow_filters
+LOCAL_MODULE    := libjni_filtershow_filters_Cyan
 LOCAL_SRC_FILES := filters/gradient.c \
                    filters/saturated.c \
                    filters/exposure.c \
