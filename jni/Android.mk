@@ -12,7 +12,7 @@ LOCAL_LDFLAGS :=  -llog -lEGL
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_MODULE := libjni_eglfence
+LOCAL_MODULE := libjni_eglfence_Cyan
 
 
 include $(BUILD_SHARED_LIBRARY)
