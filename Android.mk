@@ -5,7 +5,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_STATIC_JAVA_LIBRARIES := android-support-v13
-LOCAL_STATIC_JAVA_LIBRARIES += com.android.gallery3d.common2
+LOCAL_STATIC_JAVA_LIBRARIES += com.android.gallery3d.common2_Cyan
 LOCAL_STATIC_JAVA_LIBRARIES += xmp_toolkit
 LOCAL_STATIC_JAVA_LIBRARIES += mp4parser
 LOCAL_STATIC_JAVA_LIBRARIES += android-support-v8-renderscript
