@@ -37,9 +37,9 @@ LOCAL_SDK_VERSION := current
 # the libraries in the APK, otherwise just put them in /system/lib and
 # leave them out of the APK
 ifneq (,$(TARGET_BUILD_APPS))
-  LOCAL_JNI_SHARED_LIBRARIES := libjni_eglfence_Cyan libjni_filtershow_filters librsjni libjni_jpegstream_Cyan
+  LOCAL_JNI_SHARED_LIBRARIES := libjni_eglfence_Cyan libjni_filtershow_filters_Cyan librsjni libjni_jpegstream_Cyan
 else
-  LOCAL_REQUIRED_MODULES := libjni_eglfence_Cyan libjni_filtershow_filters libjni_jpegstream_Cyan
+  LOCAL_REQUIRED_MODULES := libjni_eglfence_Cyan libjni_filtershow_filters_Cyan libjni_jpegstream_Cyan
 endif
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
